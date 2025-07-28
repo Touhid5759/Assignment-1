@@ -241,5 +241,47 @@ form textarea{
     width: 500px;
     height: 62px;
 }
+/* Footer Section */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 428px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 531px;
+    height: 221px;
+    padding: 104px 455px;
+}
+.footer-logo{
+    font-size: 100px;
+    color: #4E47FF;
+}
+.footer-text{
+    line-height: 25px;
+    color: #6f6e82;
+}
+footer ul{
+    display: flex;
+    gap: 48px;
+}
+footer ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+footer ul li a{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    color: #6f6e82;
+    text-decoration: none;
+}
+
+
 
 
